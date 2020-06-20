@@ -79,4 +79,12 @@ public class Basket {
         }
         return hash_code;
     }
+
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Basket{");
+        sb.append("all_balls=").append(all_balls);
+        sb.append(", max_weight=").append(max_weight);
+        sb.append('}');
+        return sb.toString();
+    }
 }
